@@ -1,0 +1,57 @@
+.rs-form {
+  margin-bottom: 35px;
+}
+.rs-btn {
+  margin-right: 5px;
+}
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-group-error {
+  color: red;
+  margin: 2px 0 -5px 0;
+}
+.input-container {
+  width: 100%;
+  margin-top: 20px;
+}
+.current-config {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.input-wrapper {
+  display: flex;
+  margin-top: 5px;
+}
+.input-wrapper .rs-input {
+  border-radius: 6px 0 0 6px;
+  width: auto;
+}
+.input-wrapper .save-btn {
+  border-radius: 0;
+  margin-right: 0;
+}
+.input-wrapper .cancel-btn {
+  border-radius: 0 6px 6px 0;
+}
+
+.settings-container,
+.settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.settings-container {
+  flex: 1;
+  justify-content: space-between;
+}
+.settings-wrapper {
+  margin-bottom: 60px;
+}
+.settings-heading {
+  margin-bottom: -12px;
+}
+.profile-exit {
+  cursor: pointer;
+}

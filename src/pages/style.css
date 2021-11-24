@@ -1,0 +1,66 @@
+.login-page-container {
+  width: 100%;
+  height: 100vh;
+  background: #3498ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login-page-container .rs-notification {
+  position: absolute;
+  z-index: 1000;
+}
+.login-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0 5px 8px 0 rgb(0 94 190 / 40%), 0 7px 20px 0 rgb(0 94 190 / 40%);
+}
+.user-page-container {
+  width: 100%;
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+}
+.user-page-wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.user-page-wrapper .rs-notification {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+}
+.settings-section {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-user-section {
+  flex: 1;
+  padding: 20px 30px;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+.avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-image {
+  width: 38px;
+  height: 36px;
+  cursor: pointer;
+}
+.avatar-title {
+  margin-bottom: 70px;
+}
